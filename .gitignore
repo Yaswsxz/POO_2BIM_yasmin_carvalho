@@ -1,0 +1,24 @@
+# Build do Maven (o enunciado pede para não entregar)
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Logs da aplicação
+logs/
+*.log
+
+# Credenciais e configurações locais
+.env
+*.env
+application-local.properties
+
+# IDEs
+.vscode/launch.json
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
